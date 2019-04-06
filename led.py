@@ -23,25 +23,25 @@ for i in range(0,8):
 		row1_code += ("\tdraw.point((7,%d), fill=\"red\")\n"%i)
 for i in range(0,8):
 	if row2[i] == "x":
-		row2_code += ("\tdraw.point((7,%d), fill=\"red\")\n"%i)
+		row2_code += ("\tdraw.point((6,%d), fill=\"red\")\n"%i)
 for i in range(0,8):
 	if row3[i] == "x":
-		row3_code += ("\tdraw.point((7,%d), fill=\"red\")\n"%i)
+		row3_code += ("\tdraw.point((5,%d), fill=\"red\")\n"%i)
 for i in range(0,8):
 	if row4[i] == "x":
-		row4_code += ("\tdraw.point((7,%d), fill=\"red\")\n"%i)
+		row4_code += ("\tdraw.point((4,%d), fill=\"red\")\n"%i)
 for i in range(0,8):
 	if row5[i] == "x":
-		row5_code += ("\tdraw.point((7,%d), fill=\"red\")\n"%i)
+		row5_code += ("\tdraw.point((3,%d), fill=\"red\")\n"%i)
 for i in range(0,8):
 	if row6[i] == "x":
-		row6_code += ("\tdraw.point((7,%d), fill=\"red\")\n"%i)
+		row6_code += ("\tdraw.point((2,%d), fill=\"red\")\n"%i)
 for i in range(0,8):
 	if row7[i] == "x":
-		row7_code += ("\tdraw.point((7,%d), fill=\"red\")\n"%i)
+		row7_code += ("\tdraw.point((1,%d), fill=\"red\")\n"%i)
 for i in range(0,8):
 	if row8[i] == "x":
-		row8_code += ("\tdraw.point((7,%d), fill=\"red\")\n"%i)
+		row8_code += ("\tdraw.point((0,%d), fill=\"red\")\n"%i)
 
 holecode = ""
 holecode += "with canvas(device) as draw:\n"
